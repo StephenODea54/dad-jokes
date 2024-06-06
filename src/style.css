@@ -27,11 +27,12 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 2rem;
     max-width: 36rem;
     width: 100%;
 }
 
-.generate-button {
+#generate-button {
     flex-grow: 1;
     min-height: 3rem;
     font-size: 1.2rem;
@@ -43,6 +44,13 @@ body {
     cursor: pointer;
 }
 
-.generate-button:hover {
+#generate-button:hover {
     text-decoration: underline;
+}
+
+
+#dad-joke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
